@@ -1,0 +1,38 @@
+# Create or edit .gitignore
+cat > .gitignore << EOL
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Data directories
+tusimple_dataset/
+processed_dataset/
+test_data/
+test_results/
+output/
+
+# Model files
+models/
+*.h5
+*.keras
+
+# Large image directories
+archive/
+lane_detection_result.png
+
+# Logs
+logs/
+*.log
+
+# System files
+.DS_Store
+.idea/
+.vscode/
+EOL

@@ -1,0 +1,8 @@
+Lane Detection Model Evaluation Results
+=====================================
+
+Precision: 0.1802
+Recall: 0.9655
+F1 Score: 0.3014
+IoU: 0.1789
+Average Processing Time: 518.73 ms
